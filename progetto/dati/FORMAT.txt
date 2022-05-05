@@ -1,0 +1,26 @@
+Each instance (contenuta in un file singolo) contains
+the following information:
+**********************************************************************
+ATTENZIONE: ovviamente ignorate i valori di capacità b_i e domanda d_j
+**********************************************************************
+n: number of potential locations for facilities.
+m: number of clients.
+bi : capacity of the facility located at site i.
+fi : fixed cost of locating a facility at site i.
+dj : demand of client j.
+cij : allocation cost of assigning client j to the facility
+located at site i.
+
+For each instance, the input file takes the following format:
+n, m
+b1, f1
+b2 , f2
+b3 , f3
+.........
+bn , fn
+d1 , d2 , d3 ,..., dm
+c11,c12,c13,..., c1m
+c21,c22,c23,..., c2m
+c31,c32,c23,..., c3m
+.....................
+cn1 ,cn2 ,cn3 ,..., cnm

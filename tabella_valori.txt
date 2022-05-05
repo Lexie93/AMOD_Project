@@ -1,0 +1,93 @@
+Caso 0 --> Ottimo: 11
+  Alg 0:
+            Soluzione: 11
+            Tempo di esecuzione: (c) 0.01 / (ampl) 0.03125
+            Differenza: 0
+            Misura relativa: 1.0
+
+  Alg Erlenkotter:
+            Soluzione: 11
+            Tempo di esecuzione: 0.009
+            Differenza: 0
+            Misura relativa: 1.0
+            UpperBound: 11
+
+Caso 1 --> Ottimo: 11584
+  Alg 0:
+            Soluzione: 8242
+            Tempo di esecuzione: (c) 0.039 / (ampl) 0.109375
+            Differenza: 3342
+            Misura relativa: 0.7115
+
+  Alg Erlenkotter:
+            Soluzione: 11474 || 11389
+            Tempo di esecuzione: 0.082
+            Differenza: 110 || 195
+            Misura relativa: 0.99 || 0.98
+            UpperBound: 12997  || 11584
+
+Caso 2 --> Ottimo: 15271
+  Alg 0:
+            Soluzione: 10771
+            Tempo di esecuzione: (c) 0.065 / (ampl) 0.484375
+            Differenza: 4500
+            Misura relativa: 0.705
+
+  Alg Erlenkotter:
+            Soluzione: 15264 || 15237
+            Tempo di esecuzione: 0.280
+            Differenza: 7 || 34
+            Misura relativa: 0.999 || 0.997
+            UpperBound: 15757 ||15835
+
+
+
+Caso 3 --> Ottimo: 16649
+  Alg 0:
+            Soluzione: 11716
+            Tempo di esecuzione: (c) 0.058 / (ampl) 0.4375
+            Differenza: 4933
+            Misura relativa: 0.704
+
+  Alg Erlenkotter:
+            Soluzione: 16584 || 16576
+            Tempo di esecuzione: 0.34
+            Differenza: 65  || 73
+            Misura relativa: 0.996  //0.995
+            UpperBound: 16649 || 17006
+
+
+
+Caso 4 --> Ottimo: 18880
+  Alg 0:
+            Soluzione: 12043
+            Tempo di esecuzione: (c) 0.101 / (ampl) 1.14062
+            Differenza: 6837
+            Misura relativa: 0.6378
+
+  Alg Erlenkotter:
+            Soluzione: 18852 || 18795
+            Tempo di esecuzione: 0.737
+            Differenza: 28 || 85
+            Misura relativa: 0.998
+            UpperBound: 20101 || 21349
+
+
+
+Caso 5 --> Ottimo: 65921
+  Alg 0:
+            Soluzione: 61631
+            Tempo di esecuzione: (c) 0.009
+            Differenza: 4290
+            Misura relativa: 0.9349
+
+  Alg Erlenkotter:
+            Soluzione: 65921
+            Tempo di esecuzione: 0.009
+            Differenza: 0
+            Misura relativa: 1.0
+            UpperBound: 65921
+
+
+
+

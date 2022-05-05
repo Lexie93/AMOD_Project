@@ -1,0 +1,27 @@
+Euristica		1		2		3		4
+Caso
+
+1			32		11		11		28
+
+2			27731		51951		19257		18066
+
+3			31146		108434		27493		26754
+
+4			26305		142580		26305		25090
+
+5			39974		149096		41597		31355
+
+
+Descrizioni
+
+1)	Si attiva la fabbrica con costo di attivazione minore e si collegano ad essa tutti i clienti.
+
+2)	Per ogni cliente si attiva la fabbrica con costo di servizio minore e vi si collega.
+
+3)	Per ogni cliente si studia il minimo dei costi totali delle fabbriche (il costo totale è definito
+come la somma del costo di servizio ed il costo di attivazione nel caso in cui la fabbrica non sia già attiva);
+se il minimo c.t. corrisponde ad una fabbrica già attiva il cliente vi viene collegato, in caso contrario
+il collegamento avviene in seguito all'attivazione della fabbrica stessa.
+
+4)	Si attiva la fabbrica che ha minima somma dei costi di collegamento più costo di attivazione
+e si collegano ad essa tutti i clienti.

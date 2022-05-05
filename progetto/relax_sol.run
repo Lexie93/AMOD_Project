@@ -1,0 +1,26 @@
+reset;
+model relax_sol.mod;
+
+#READ FASE
+param path {1..5} symbolic;
+let path[1] := "./dati/prova.dat";
+let path[2] := "./dati/A30-200-1.dat";
+let path[3] := "./dati/A60-300-1.dat";
+let path[4] := "./dati/A60-300-5.dat";
+let path[5] := "./dati/A80-400-5.dat";
+param index := 2;
+
+read n, m < (path[index]);
+read {i in I} (b[i], f[i]) < (path[index]);
+read {j in J} d[j] < (path[index]);
+read {i in I, j in J} c[i,j] < (path[index]);
+
+#SOLVE
+option solver gurobi;
+solve;
+print "";
+display total_cost;
+#display x;
+#display y;
+
+display _ampl_time;
